@@ -5,6 +5,10 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.smart-claimant]
+path = 'contracts/smart-claimant.clar'
+clarity_version = 1
+
 [contracts.timelocked-wallet]
 path = 'contracts/timelocked-wallet.clar'
 clarity_version = 1
